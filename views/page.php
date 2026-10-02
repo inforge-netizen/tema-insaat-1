@@ -1,0 +1,1 @@
+<?php require __DIR__.'/header.php'; ?><main class="ma-inner"><span class="ma-kicker">MONUMENT ATELIER</span><h1><?=htmlspecialchars($page['title']??'Sayfa')?></h1><div class="ma-page-content"><?=$page['content']??''?></div></main><?php require __DIR__.'/footer.php'; ?>
